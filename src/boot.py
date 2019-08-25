@@ -4,4 +4,4 @@
 #import webrepl
 # webrepl.start()
 import vlaskz
-vlaskz.do_connect()
+vlaskz.connect(input('essid:'), input('pwd:'))
