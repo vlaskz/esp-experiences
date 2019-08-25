@@ -3,8 +3,5 @@
 # esp.osdebug(None)
 #import webrepl
 # webrepl.start()
-
-
-from machine import Pin
-
-led = Pin(2, Pin.OUT)
+import vlaskz
+vlaskz.do_connect()
